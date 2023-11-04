@@ -1,0 +1,12 @@
+git init 
+git add . 
+git commit -m "perimer commit"
+
+3 lineas que da el repositorio la segunda seccion
+
+
+//actualizar
+
+git add .
+git commit -m "agregado con hbs"
+git push

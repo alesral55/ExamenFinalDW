@@ -1,0 +1,27 @@
+.imagen{
+    width: auto;
+    height: 400px;
+}
+
+
+.ctmFooter{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    padding-left: 5px;
+    display: flex; 
+    align-items: center; 
+
+}
+
+.imgFooter{
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 80px;
+    
+}
+        .foot{
+            background: rgb(80, 75, 204);
+            background: linear-gradient(90deg, rgb(67, 19, 145) 0%,rgba(83, 23, 161, 0.908)) 54%, rgb(91, 23, 216) 100%);
+        }

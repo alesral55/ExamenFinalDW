@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/estiloPrincipal.css" />
+    <link rel="stylesheet" href="assets/css/header.css">
+
+</head>
+
+<body>
+    {{> header}}
+    {{> menu}}
+
+    <h1>Home</h1>
+    <div class="contenido">
+        <p>
+            Los vehículos terrestres de carga son vehículos diseñados para transportar mercancías y carga en tierra.
+            Estos vehículos se utilizan en una variedad de industrias y sectores para mover productos, materiales y
+            suministros de un lugar a otro. Algunos ejemplos comunes de vehículos terrestres de carga incluyen:
+        </p>
+        <li>Camiones: Los camiones son vehículos de carga terrestres muy comunes y versátiles. Vienen en una variedad de
+            tamaños y capacidades de carga, desde camionetas pequeñas hasta camiones de carga pesada.</li>
+        <li>Furgonetas de reparto: Estas son furgonetas diseñadas específicamente para transportar mercancías, paquetes
+            y suministros. Son utilizadas por empresas de mensajería y paquetería, servicios de entrega y reparto local.
+        </li>
+        <div class="izquierda">
+        <li>Camiones cisterna: Estos vehículos están diseñados para transportar líquidos y productos químicos a granel.
+            Se utilizan en la industria de la logística de petróleo, químicos y alimentos.</li>
+        <li>Camiones de volteo: Estos vehículos tienen una caja que se inclina para descargar materiales a granel, como
+            tierra, arena o escombros. Son comunes en la construcción y la industria de la minería.</li>
+        <li>Remolques y semirremolques: Estos vehículos se utilizan en combinación con camiones para transportar carga
+            adicional. Los remolques y semirremolques pueden variar en tamaño y capacidad de carga.</li>
+        </div>
+
+        <div class="derecha">
+                    <img class="imagen" src="images/cisterma.jpg" alt="">
+        </div>
+        <div class="derecha">
+                    <li>Camiones de carga pesada: Los camiones de carga pesada, también conocidos como camiones de transporte de
+            carga pesada, se utilizan para transportar mercancías extremadamente pesadas, como maquinaria industrial,
+            materiales de construcción de gran tamaño y equipo especializado.</li>
+        <li>Camiones de reparto refrigerados: Estos vehículos cuentan con sistemas de refrigeración y se utilizan para
+            transportar productos perecederos, como alimentos congelados o productos farmacéuticos que requieren
+            temperaturas controladas.</li>
+        <li>Camiones grúa: Estos camiones están equipados con grúas que permiten cargar y descargar mercancías pesadas
+            de manera eficiente. Se utilizan en construcción, mantenimiento de infraestructuras y otras aplicaciones.
+        </li>
+        </div>
+        <div class="izquiera">
+                    <img class="imagen" src="images/vehiculos.jpeg" alt="">
+
+        </div>
+
+    </div>
+    {{nombre}}
+    {{titulo}}
+</body>
+<script src="assets/js/header.js"></script>
+{{> footer}}
+
+</html>
